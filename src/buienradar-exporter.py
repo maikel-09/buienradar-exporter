@@ -96,7 +96,7 @@ def main():
     """Main function to start Prometheus exporter and fetch/update metrics."""
     logging.basicConfig(level=logging.INFO, format='level=%(levelname)s msg="%(message)s"')
     start_http_server(PORT)
-    logging.info(f"Started Prometheus exporter on port {PORT}")
+    logging.info(f"Started Prometheus buienradar exporter on port {PORT}")
     
     while True:
         data = list(buienradar_current_data())
