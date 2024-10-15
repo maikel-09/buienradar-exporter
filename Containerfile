@@ -7,4 +7,4 @@ RUN python3 -m pip install -r requirements.txt
 
 EXPOSE 9002
 
-CMD ["python3", "buienradar.py"]
+CMD ["python3", "buienradar-exporter.py"]
