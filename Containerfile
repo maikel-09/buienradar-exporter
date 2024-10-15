@@ -1,3 +1,5 @@
+LABEL org.opencontainers.image.authors="maikel-09"
+
 FROM python:3
 
 WORKDIR /home/metrics
