@@ -1,4 +1,4 @@
-LABEL org.opencontainers.image.authors="maikel-09"
+LABEL authors="maikel-09"
 LABEL version="1.0"
 
 FROM python:3
