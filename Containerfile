@@ -1,7 +1,7 @@
 FROM python:3
 
-LABEL authors="maikel-09"
-LABEL version="1.0"
+LABEL authors="Maikel Wagteveld"
+LABEL version="v1.0.0"
 
 WORKDIR /home/metrics
 COPY src/ /home/metrics
