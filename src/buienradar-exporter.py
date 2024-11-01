@@ -109,7 +109,7 @@ def main():
             sunset_epoch = convert_to_epoch(sunset_time)
             prometheus_gauges['sunrise'].labels(station="global", regio="global").set(sunrise_epoch)
             prometheus_gauges['sunset'].labels(station="global", regio="global").set(sunset_epoch)
-            logging.info(f"Sunrise: {sunrise_time}, Sunset: {sunset_time}")
+            logging.debug(f"Sunrise: {sunrise_time}, Sunset: {sunset_time}")
         
         logging.info(f"Got data for {len(data)} stations")
         for station in data:
